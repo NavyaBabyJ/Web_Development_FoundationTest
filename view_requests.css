@@ -1,0 +1,88 @@
+
+    table {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Add custom CSS styles for the table here */
+
+/* Style the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+/* Style table headers */
+th {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Style table rows */
+tr:nth-child(even) {
+    background-color: #33ff33;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Style table cells */
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Style the "View More" links */
+td:last-child {
+    text-align: center;
+}
+
+td:last-child a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+td:last-child a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 100%; /* Full width for small screens */
+    }
+}
+
+
+/* Define styles for colored boxes */
+.colored-box {
+    width: 80px; /* Set the width of the box */
+    height: 80px; /* Set the height of the box */
+    background-color: red; /* Set the background color */
+    margin: 10px; /* Add some margin for spacing */
+    display: inline-block; /* Display boxes inline */
+}
+
+/* Define different styles for other boxes */
+.blue-box {
+    background-color: grey;
+}
+
+.green-box {
+    background-color: #33ff33;
+}
+
+
